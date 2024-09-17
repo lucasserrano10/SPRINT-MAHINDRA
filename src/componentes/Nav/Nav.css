@@ -1,7 +1,41 @@
-.div-nav{
-    background-color:aquamarine ;
-    color: black;
-    text-align: center;
-    padding: 7px;
-    margin-bottom: 15px;
+
+.navbar.nav-bar {
+    background-color: #80808088 !important; 
+    padding: 13px;
+}
+
+
+.link:hover{
+    transform: scale(0.9);
+    opacity: 0.4;
+}
+
+
+.navbar .brand-link {
+    text-shadow: 1px 1px 1px black;
+    color: #C8102E;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+.navbar .brand-link:hover {
+    color: #c8102fbf ;
+}
+
+#offcanvasNavbarLabel{
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+#offcanvasNavbar{
+    background-color: #00000089 ;
+}
+
+.nav-canvas{
+    color: white;
 }

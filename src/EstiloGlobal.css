@@ -5,3 +5,10 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
+
+:root{
+    --font-color:#C8102E;
+    --color-white:#fff;
+    --color-gray:#808080;
+    --background-color:#f5f5dc;
+}
