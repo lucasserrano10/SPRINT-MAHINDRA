@@ -4,11 +4,11 @@ import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Offcanvas from 'react-bootstrap/Offcanvas';
-import '../Nav/Nav.css'
+import '../Nav/Nav.css';
 
 function Menu() {
     return (
-        <Navbar expand="lg" className="nav-bar bg-body-tertiary mb-3">
+        <Navbar expand="lg" className="nav-bar bg-body-tertiary mb-0"> {/* Remove a margem inferior do Navbar */}
             <Container fluid>
                 <Navbar.Brand href="#" className='brand-link'>CODETECH</Navbar.Brand>
                 <Navbar.Toggle aria-controls="offcanvasNavbar" />

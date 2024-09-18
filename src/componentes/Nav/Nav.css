@@ -1,10 +1,12 @@
+.navbar {
+    margin-bottom: 0; /* Remove a margem inferior */
+    padding-bottom: 0; /* Remove o padding inferior se necessário */
+} 
 
 .navbar.nav-bar {
     background-color: #80808088 !important; 
-    padding: 13px;
+    padding: 20px;
 }
-
-
 .link:hover{
     transform: scale(0.9);
     opacity: 0.4;
