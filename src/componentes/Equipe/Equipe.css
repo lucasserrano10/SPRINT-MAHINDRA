@@ -1,7 +1,92 @@
-.div-equipe{
-    background-color:brown ;
-    color: black;
-    text-align: center;
-    padding: 7px;
+.div-subtitle{
+    background-color: #fff;
+    border-radius: 15px;
+    margin: 10px;
+    box-shadow: 10px 5px 5px rgba(255, 0, 0, 0.2);
+}
+
+.card {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 40px; /* Espaço entre os cards */
+    box-shadow: 6px 4px 6px rgba(255, 0, 0, 0.1); /* Sombra vermelha clara */
+    border-radius: 10px; /* Bordas arredondadas */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transição suave */
+}
+
+.card-container {
+    margin-top: 30px; /* Ajuste conforme necessário */
+}
+
+/* Efeito de hover */
+.card:hover {
+    transform: translateY(-10px); /* Eleva o card ao passar o mouse */
+    box-shadow: 0 8px 12px rgba(255, 0, 0, 0.2); /* Aumenta a sombra ao passar o mouse */
+}
+
+/* Ajuste a imagem para não cortar o conteúdo */
+.card-img-top {
+    max-height: 200px;
+    object-fit: contain;
+    background-color: #f8f9fa; /* Adiciona uma cor de fundo */
+    border-top-left-radius: 10px; /* Bordas arredondadas para a imagem */
+    border-top-right-radius: 10px;
+}
+
+/* Ajuste de padding e texto */
+.card-body {
+    padding: 20px;
+    flex-grow: 1;
+}
+
+.card-title {
+    font-size: 1.25rem;
     margin-bottom: 15px;
+    text-align: center; /* Centraliza o título */
+    color: #333; /* Cor do texto */
+}
+
+.card-text {
+    flex-grow: 1;
+    color: #555; /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+}
+
+/* Botão de ação */
+.card-footer {
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Estilização do botão */
+.card-footer button {
+    background-color: #ff4d4d; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    transition: background-color 0.3s ease;
+}
+
+.card-footer button:hover {
+    background-color: #ff1a1a; /* Cor ao passar o mouse */
+}
+
+
+.social-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    transition: transform 0.3s ease; /* Efeito ao passar o mouse */
+}
+
+.social-icon:hover {
+    transform: scale(1.1); /* Aumenta o ícone ao passar o mouse */
+}
+
+/* Ajusta o espaçamento entre os ícones */
+.ml-3 {
+    margin-left: 15px;
 }

@@ -10,12 +10,14 @@ import '../src/EstiloGlobal.css'
 function App() {
   return (
     <>
+    <div className="div-geral">
       <Nav/>
       <Home/>
       <Equipe/>
       <Vantagens/>
       <Contato/>
       <Footer/>
+    </div>
     </>
   )
 }
