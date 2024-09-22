@@ -22,3 +22,6 @@ Este é um projeto desenvolvido como parte do curso de Engenharia de Software na
 - Armazenamento das informações do contato no localStorage.
 - Exibição de dados de contato da empresa (endereço, telefone, email).
 - Estilo responsivo para dispositivos móveis e desktops.
+
+## Licença
+Este projeto está licenciado sob a MIT License.
