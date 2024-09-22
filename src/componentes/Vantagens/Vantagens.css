@@ -1,7 +1,6 @@
-.div-vantagens{
-    background-color:blue ;
-    color: rgb(255, 240, 240);
-    text-align: center;
-    padding: 7px;
-    margin-bottom: 15px;
+.div-subtitle{
+    background-color: #fff;
+    border-radius: 15px;
+    margin: 10px;
+    box-shadow: 10px 5px 5px rgba(255, 0, 0, 0.2);
 }

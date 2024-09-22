@@ -15,7 +15,9 @@ function App() {
       <Home/>
       <Equipe/>
       <Vantagens/>
-      <Contato/>
+      <div>
+        <Contato/>
+      </div>
       <Footer/>
     </div>
     </>

@@ -1,7 +1,17 @@
-.div-contato{
-    background-color:indianred ;
-    color: black;
-    text-align: center;
-    padding: 7px;
-    margin-bottom: 15px;
+.bg-red-2 {
+    background-color: #c8102fb0;
+}
+
+.sub-title {
+    font-size: 24px;
+}
+
+.my-title {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.icon-contato img {
+    width: 40px;
+    height: 40px;
 }
