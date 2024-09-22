@@ -24,9 +24,9 @@ function Menu() {
                     </Offcanvas.Header>
                     <Offcanvas.Body>
                         <Nav className="nav-canvas justify-content-start flex-grow-1 pe-3">
-                            <Nav.Link href="#action1" className='link ms-5 fs-5'>Home</Nav.Link>
-                            <Nav.Link href="#action2" className='link ms-5 fs-5'>Equipe</Nav.Link>
-                            <Nav.Link href="#action2" className='link ms-5 fs-5'>Contato</Nav.Link>
+                            <Nav.Link href="#home" className='link ms-5 fs-5'>Home</Nav.Link>
+                            <Nav.Link href="#equipe" className='link ms-5 fs-5'>Equipe</Nav.Link>
+                            <Nav.Link href="#contato" className='link ms-5 fs-5'>Contato</Nav.Link>
                         </Nav>
                         <Form className="d-flex">
                             <Form.Control

@@ -5,6 +5,7 @@ import Vantagens from "./componentes/Vantagens/Vantagens"
 import Contato from "./componentes/Contato/Contato"
 import Footer from "./componentes/Footer/Footer"
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import '../src/EstiloGlobal.css'
 
 function App() {
